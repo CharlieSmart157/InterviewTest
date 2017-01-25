@@ -8,9 +8,9 @@ import static junit.framework.Assert.assertNotNull;
 /**
  * Created by Charlie on 25/01/2017.
  */
-public class LoginTest {
 
-    LoginActivity loginActivity;
+public class MainActivityTest {
+    MainActivity mainActivity;
     @BeforeClass
     public static void setup(){
 
@@ -18,8 +18,8 @@ public class LoginTest {
 
     @Test
     public void loginValidatorTest() {
-       loginActivity = new LoginActivity();
+        mainActivity = new MainActivity();
 
-        assertNotNull(loginActivity.mPresenter);
+        assertNotNull(mainActivity.mPresenter);
     }
 }
